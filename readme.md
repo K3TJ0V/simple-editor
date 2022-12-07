@@ -1,18 +1,13 @@
 ![cover](https://cotenfrontend.pl/img/cover.png)
 
-# WTF Webpack Starter Kit 
+# Prosty edytor tekstu z pamięcią
 
-Simple toolkit for your static websites development.
+Jest to prosty edytor tekstu z funkcją zapisywania wprowadzonego tekstu
 
-## How to use it?
+## Funkcjonalność
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+Design jest bardzo prosty i sama strona jest o przystępnej budowie
 
-## Available scripts
+## Jak to działa?
 
-`npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
-
+Strona zapisuje w `local storage` wpisane dane, następnie po wciśnięciu przycisku `load` wprowadzany jest zapisany cos tam do pola tekstowego
