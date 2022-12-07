@@ -1,0 +1,50 @@
+@import "_variables";
+@import "~normalize.css";
+
+
+body {
+  background-color: $wtf;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  &__header {
+    min-width: fit-content;
+    display: block;
+    font-family: "Ubuntu";
+    font-weight: 500;
+  }
+  &__textarea {
+    width: 500px;
+    height: 350px;
+    border-radius: 16px;
+    padding: 10px;
+  }
+  &__button {
+    width: fit-content;
+    align-self: end;
+  }
+}
+.button {
+    width: fit-content;
+    align-self: end;
+  &__load, &__save{
+    background-color: rgb(11, 110, 167);
+    width: 80px;
+    height: 30px;
+    margin-left: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: $Ubuntu-font;
+    font-weight: 500;
+  }
+  &__save {
+    background-color: green;
+  }}
